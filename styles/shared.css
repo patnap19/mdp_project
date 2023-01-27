@@ -10,7 +10,7 @@
 :root{
     --green-color: #6B9080;
     --green-color-2: #A4C3B2;
-    --green-white: #CCE3DE;
+    --green-white: rgb(204, 227, 222);
     --white-color: #EAF4F4;
     --white-color-2: #F6FFF8;
     --transition-time: 0.2s;
@@ -38,6 +38,7 @@ body{
     background-color: var(--green-white);
     height: 60px;
     align-items: center;
+    z-index: 3; 
 }
 
 .logo__container{
@@ -72,6 +73,19 @@ body{
 {
     color: #5a7a6c;
     border-bottom:1px solid #5a7a6c;
+}
+
+.main__container{
+    padding: 100px 0;
+    margin: 0 2%;
+}
+
+.section-title{
+    text-align: center;
+    top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #5a7a6c;
 }
 
 }

@@ -1,5 +1,22 @@
 
 /* HEADER MAIN */
+.header{
+    background: url('../assets/images/header_photo.jpg');
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.header::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(204, 227, 222, .85);
+}
+
 
 .header h1{
     position: absolute;
@@ -7,6 +24,36 @@
     left: 2%;
     transform: translateY(-50%);
     color: var(--green-color);
+    width: 50%;
+    font-size: 60px;
+    z-index: 3;
+}
+
+.btns__container{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    z-index: 3;
+}
+
+.btn__header{
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 50px;
+    background-color: transparent;
+    border: 3px solid var(--green-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--green-color);
+    cursor: pointer;
+    transition: var(--transition-time);
+}
+
+.btn__header:hover,
+.btn__header:active{
+    background-color: var(--green-color);
+    color: var(--white-color);
+
 }
 
 /* NAVIGATION TABLET */
