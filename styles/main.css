@@ -42,13 +42,14 @@
     padding: 20px 40px;
     border-radius: 10px;
     margin: 50px;
-    background-color: transparent;
+    background-color: var(--white-color);
     border: 3px solid var(--green-color);
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--green-color);
     cursor: pointer;
     transition: var(--transition-time);
+    font-weight: bold;
 }
 
 .btn__header:hover,

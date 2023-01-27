@@ -66,6 +66,8 @@ body{
     text-transform: uppercase;
     color: var(--green-color);
     transition: var(--transition-time);
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .nav__element a:hover,
