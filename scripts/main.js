@@ -1,1 +1,1 @@
-alert("działa");
+// alert("działa");
