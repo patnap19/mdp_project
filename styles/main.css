@@ -17,12 +17,17 @@
     --transition-time: 0.2s;
 }
 
+
+
 body{
     background-color: var(--white-color);
 }
 
+/* DESKTOP SETTING */
 
+@media only screen and (min-width:769px) {
 
+/* NAVIGATION */
 .main-nav{
     position: absolute;
     top: 10px;
@@ -63,7 +68,38 @@ body{
     transition: var(--transition-time);
 }
 
-.nav__element a:hover{
+.nav__element a:hover,
+.nav__element a:active
+{
     color: #5a7a6c;
     border-bottom:1px solid #5a7a6c;
 }
+
+/* HEADER MAIN */
+
+.header h1{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+}
+
+/* NAVIGATION TABLET */
+
+/* @media only screen and (min-width:421px) and (max-width:768px){
+    body{
+        background-color: red;
+    }
+} */
+
+/* Navigation mobile */
+
+/* @media only screen and (max-width:420px){
+    .main-nav{
+        height: 100%;
+        flex-direction: column;
+        background-color: red;
+    }
+} */
